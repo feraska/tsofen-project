@@ -17,7 +17,7 @@
             <artifactId>json</artifactId>
             <version>20220320</version>
             <scope>compile</scope>
-            <packaging>jar</packaging>
+
         </dependency>
         <dependency>
             <groupId>org.apache.maven.plugins</groupId>
