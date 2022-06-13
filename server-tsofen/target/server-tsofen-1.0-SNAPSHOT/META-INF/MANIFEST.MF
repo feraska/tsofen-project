@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven 3.8.1
+Built-By: ASUS
+Build-Jdk: 17.0.1
+Class-Path: lib/json-20220320.jar lib/maven-jar-plugin-2.4.jar lib/maven
+ -plugin-api-2.0.6.jar lib/maven-project-2.0.6.jar lib/maven-settings-2.
+ 0.6.jar lib/maven-profile-2.0.6.jar lib/maven-artifact-manager-2.0.6.ja
+ r lib/maven-repository-metadata-2.0.6.jar lib/wagon-provider-api-1.0-be
+ ta-2.jar lib/maven-plugin-registry-2.0.6.jar lib/plexus-container-defau
+ lt-1.0-alpha-9-stable-1.jar lib/junit-3.8.1.jar lib/classworlds-1.1-alp
+ ha-2.jar lib/maven-model-2.0.6.jar lib/maven-artifact-2.0.6.jar lib/mav
+ en-archiver-2.5.jar lib/maven-core-2.0.6.jar lib/wagon-file-1.0-beta-2.
+ jar lib/maven-plugin-parameter-documenter-2.0.6.jar lib/wagon-http-ligh
+ tweight-1.0-beta-2.jar lib/wagon-http-shared-1.0-beta-2.jar lib/jtidy-4
+ aug2000r7-dev.jar lib/xml-apis-1.0.b2.jar lib/maven-reporting-api-2.0.6
+ .jar lib/doxia-sink-api-1.0-alpha-7.jar lib/maven-error-diagnostics-2.0
+ .6.jar lib/commons-cli-1.0.jar lib/wagon-ssh-external-1.0-beta-2.jar li
+ b/wagon-ssh-common-1.0-beta-2.jar lib/maven-plugin-descriptor-2.0.6.jar
+  lib/plexus-interactivity-api-1.0-alpha-4.jar lib/maven-monitor-2.0.6.j
+ ar lib/wagon-ssh-1.0-beta-2.jar lib/jsch-0.1.27.jar lib/plexus-interpol
+ ation-1.15.jar lib/plexus-archiver-2.1.jar lib/plexus-io-2.0.2.jar lib/
+ commons-lang-2.1.jar lib/plexus-utils-3.0.jar
+Main-Class: mainpkg.Server
+

@@ -3,17 +3,30 @@ package requestResponsePkg;
 import org.json.JSONObject;
 
 public class Response{
-   // private JSONObject content_param = new JSONObject();
-    private JSONObject main=new JSONObject();
-    private JSONObject content_body = new JSONObject();
-    private JSONObject content_header = new JSONObject();
+    private JSONObject main=new JSONObject();// main object(response)
+    private JSONObject content_body = new JSONObject();//body
+    private JSONObject content_header = new JSONObject();//header
+    /**
+     * add header to header json object
+     * @param key string key
+     * @param value object value
+     * */
     public void addHeader(String key,Object value){
         content_header.put(key,value);
     }
+    /**
+     * add body to body json object
+     * @param key string key
+     * @param value object value
+     * */
 
     public void addBody(String key,Object value){
         content_body.put(key,value);
     }
+    /**
+     * give response string
+     * @return response string
+     * */
 
     @Override
     public String toString() {
@@ -23,11 +36,6 @@ public class Response{
         return main.get("header").toString();
     }
 
-
-    // public void addParam(String key,Object value){
-   //     content_param.put(key,value);
-   // }
-
     public JSONObject getContent_body() {
         return content_body;
     }
@@ -36,18 +44,17 @@ public class Response{
         return content_header;
     }
 
-  //  public JSONObject getContent_param() {
-   //     return content_param;
-  //  }
 
     public JSONObject getMain() {
         return main;
     }
-
+    /**
+     * add body and header to the response
+     *
+     * */
     public void addContent() {
         main.put("body",content_body);
         main.put("header",content_header);
-       // main.put("param",content_param);
     }
 
 }
